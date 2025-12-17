@@ -5,10 +5,11 @@
 
 Hospitals operate in an environment of increasing clinical complexity, financial pressure, and rising demand for timely, high-quality care. Leadership teams require clear, data-driven insights to understand where operational bottlenecks exist, which clinical areas drive risk and cost, and how patient utilization patterns are evolving over time.
 
-This analysis was conducted to support hospital performance monitoring and payer exposure assessment, with insights and recommendations focusing on three core domains:
+This analysis was conducted to support hospital performance monitoring and payer exposure assessment, with insights and recommendations focusing on four core domains:
 - Clinical performance (length of stay and readmissions)
 - Financial exposure (uncompensated care and payer distribution)
-- Service utilization and demand trends (diagnoses, procedures, and encounter volumes)
+- Diagnosis and Procedure utilization patterns (high-volume clinical conditions and services)
+- Service utilization and demand trends (encounter volumes by care setting)
 
 Using encounter-level electronic health record (EHR) data, the project evaluates how patient flow, clinical outcomes, and financial risk vary across encounter classes, diagnoses, and payer types. The goal is not retrospective reporting alone, but to provide leadership with actionable insight to inform resource allocation, quality improvement initiatives, and payer strategy.
 
