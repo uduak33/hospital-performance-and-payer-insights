@@ -66,4 +66,4 @@ No material data integrity issues were identified that would invalidate descript
 
 Hospital encounter volumes have increased substantially over time, driven primarily by ambulatory care growth, while clinical efficiency and readmission risk remain concentrated within a limited subset of diagnoses. Financial exposure is driven less by overall volume and more by payer mix, with uninsured encounters accounting for the highest proportion of uncompensated care. Together, these patterns highlight clear opportunities for diagnosis-level operational improvement, targeted financial interventions, and forward-looking capacity planning.
 
-![image alt](https://github.com/uduak33/hospital-performance-and-payer-insights/blob/e67bae87bd6dcd6949fe4813eb764e94c25c65da/Encounter%20Volume%20Over%20Time.jpg)
+![alt text](https://github.com/uduak33/hospital-performance-and-payer-insights/blob/e67bae87bd6dcd6949fe4813eb764e94c25c65da/Encounter%20Volume%20Over%20Time.jpg)
