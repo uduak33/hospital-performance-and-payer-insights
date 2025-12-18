@@ -64,10 +64,13 @@ Hospital encounter volumes have increased substantially over time, driven primar
 
 
 <p align="center">
-  <img src="encounter_volume_over_time-1.png"
+  <img src="executive_summary-1.png"
        width="650"
-       alt="Encounter volume over time"/>
+       alt="Executive summary dashboard"/>
 </p>
+
+*The Executive Summary Dashboard provides a high-level snapshot of hospital activity, patient mix, financial exposure, and mortality trends across the full historical period. It is designed to give leadership an immediate sense of scale, risk, and directional trends before deeper diagnostic analysis*
+
 
 
 
