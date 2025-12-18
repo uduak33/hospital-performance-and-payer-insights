@@ -11,7 +11,7 @@ This analysis was conducted to support hospital performance monitoring and payer
 - Diagnosis and Procedure utilisation patterns (high-volume clinical conditions and services)
 - Service utilisation and demand trends (encounter volumes by care setting)
 
-Using encounter-level electronic health record (EHR) data, the project evaluates how patient flow, clinical outcomes, and financial risk vary across encounter classes, diagnoses, and payer types. The goal is not retrospective reporting alone, but to provide leadership with actionable insight to inform resource allocation, quality improvement initiatives, and payer strategy.
+Using encounter-level electronic health record (EHR) data, the project evaluates how patient flow, clinical outcomes, and financial risk vary across encounter classes, diagnoses, and payer types. The goal is not retrospective reporting alone, but to provide leadership with actionable insight to inform resource allocation, quality improvement initiatives, and payer strategy. While based on synthetic data, the analysis is intentionally structured to mirror real-world hospital performance analytics and decision-making workflows.
 
 - Tableau Story (Interactive Dashboards): [link to be added]
 - SQL Queries Used for Analysis: [link to repository folder]
@@ -120,8 +120,8 @@ Overall, payer mix—rather than total encounter volume alone—is a key driver 
 ## Assumptions & Caveats
 ### 1. Patient Insurance Attribution
 - Synthea permits patients to hold multiple concurrent insurance coverages, limiting definitive primary payer attribution at the encounter level. Payer mix results, therefore, reflect coverage presence rather than exclusive insurer responsibility.
-### 2. Claims and Payment Reconciliation
-- The claims_transactions table is not fully synchronised with the encounters table, preventing reliable encounter-level payment validation. Financial insights are therefore based on encounter utilization and exposure rather than confirmed revenue realization.
+### 2. Encounter-Level Financial Attribution
+- Encounter records could not be reliably reconciled to transaction-level payment data due to structural misalignment. Financial interpretations, therefore, reflect utilisation and exposure based on encounters rather than confirmed payment outcomes.
 ### 3. Admission Classification Decision
 - Hospice and skilled nursing facility (SNF) encounters were initially considered for inclusion as admissions but were excluded for consistency. Admission-related analyses were restricted to inpatient encounters only to maintain a clear and reproducible definition.
 ### 4. Clinical Coding Framework
