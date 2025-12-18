@@ -14,9 +14,9 @@ This analysis was conducted to support hospital performance monitoring and payer
 Using encounter-level electronic health record (EHR) data, the project evaluates how patient flow, clinical outcomes, and financial risk vary across encounter classes, diagnoses, and payer types. The goal is not just retrospective reporting, but to provide leadership with actionable insights to inform resource allocation, quality improvement initiatives, and payer strategy. While based on synthetic data, the analysis is intentionally structured to mirror real-world hospital performance analytics and decision-making workflows.
 
 - Tableau Story (Interactive Dashboards): [link to be added]
-- SQL Queries Used for Analysis: [link to repository folder]
-- Synthetic EHR Dataset (Synthea): [link to dataset folder]
-- Entity Relationship Diagram (ERD): [link to ERD diagram]
+- SQL Queries Used for Analysis: [Available here](https://github.com/uduak33/hospital-performance-and-payer-insights/blob/main/sql_scripts) 
+- Synthetic EHR Dataset (Synthea): [Download here](https://drive.google.com/file/d/1MbpiKEOvP2GoirC1C_gbqNuwcTseC3Cg/view?usp=drive_link)
+- Entity Relationship Diagram (ERD): [View here](https://drive.google.com/file/d/1uaJcTt5IJoImHiWCTbFmnAwpUeNv5Lja/view?usp=drive_link)
 
 ## Data Structure & Initial Checks
 
@@ -65,9 +65,16 @@ No material data integrity issues were identified that would invalidate descript
 Hospital encounter volumes have increased substantially over time, driven primarily by ambulatory care growth, while clinical efficiency and readmission risk remain concentrated within a limited subset of diagnoses. Financial exposure is driven less by overall volume and more by payer mix, with uninsured encounters accounting for the highest proportion of uncompensated care. Together, these patterns highlight clear opportunities for diagnosis-level operational improvement, targeted financial interventions, and forward-looking capacity planning.
 
 
+<p align="center">
+  <img src="encounter_volume_over_time-1.png"
+       width="650"
+       alt="Encounter volume over time"/>
+</p>
+
+
 
 ## Insights Deep Dive
-## Clinical Performance (Length of Stay & Readmissions)
+### Clinical Performance (Length of Stay & Readmissions)
 
 - Inpatient length of stay is disproportionately driven by a small set of high-acuity diagnoses, notably respiratory conditions (e.g., pulmonary emphysema, COVID-19–related disease), oncology-related admissions, and select endocrine and haematology cases, with some diagnoses exceeding 20–30 days on average.
 - Readmission risk is similarly concentrated, with non-small cell lung cancer and select cardiac conditions accounting for a large share of 30-day readmissions despite representing a minority of total admissions.
@@ -76,8 +83,10 @@ Hospital encounter volumes have increased substantially over time, driven primar
 
 These patterns highlight clear opportunities for targeted clinical pathway optimisation, discharge planning, and post-acute follow-up focused on high-impact diagnoses.
 
+![alt text](clinical_performance-1.png)
 
-## Financial Performance
+
+### Financial Performance
 
 - Medicare and Medicaid account for the largest share of patient encounters across nearly all encounter classes, particularly in ambulatory, outpatient, emergency, and inpatient settings, indicating strong reliance on public payers for service volume.
 - Despite lower encounter counts relative to insured populations, uninsured encounters contribute a disproportionate share of uncompensated care across all settings, reaching 100% uncompensated rates by definition.
@@ -86,12 +95,18 @@ These patterns highlight clear opportunities for targeted clinical pathway optim
 
 Overall, payer mix—rather than total encounter volume alone—is a key driver of financial risk, highlighting the importance of payer strategy and coverage optimisation.
 
-## Diagnosis and Procedure Patterns
+![alt text](financial_performance-1.png)
+
+
+### Diagnosis and Procedure Patterns
 
 - Diagnosis patterns vary markedly by encounter class, reflecting distinct clinical burdens across care settings. Ambulatory encounters are dominated by chronic conditions such as chronic kidney disease stage 4 and end-stage renal disease, while acute events, including overdose, fractures, and lacerations, drive emergency visits.
 - Inpatient diagnoses cluster around high-acuity conditions such as lung cancer, heart failure, and myocardial infarction, whereas hospice and wellness settings show predominance of end-of-life and chronic disease management diagnoses.
 - Procedure utilisation mirrors these patterns: ambulatory care is heavily driven by renal dialysis and dental services, wellness encounters emphasise screening and psychosocial assessments, and inpatient care is characterised by chemotherapy, respiratory support, and advanced imaging.
 - Emergency and urgent care procedures centre on screening, stabilisation, and initial assessments, highlighting their role as acute access points within the care continuum.
+
+![alt text](diagnosis_procedures-1.png)
+
 
 ## Time Trends & Service Utilisation
 - Patient encounter volumes rose sharply after 2015, marking a structural shift in service utilisation rather than gradual organic growth.
@@ -99,6 +114,9 @@ Overall, payer mix—rather than total encounter volume alone—is a key driver 
 - Outpatient services peaked markedly in 2021, reflecting pandemic-era care deferral followed by release demand and service reconfiguration.
 - Emergency, inpatient, and post-acute services increased modestly, suggesting stable acuity demand relative to rapid outpatient expansion.
 - Virtual and wellness encounters surged post-2019, indicating durable adoption of preventive and remote care models beyond the pandemic period.
+
+![alt text](time_trends-1.png)
+
 
 ## Recommendations & Next Steps
 ### 1. Clinical Operations Optimisation
