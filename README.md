@@ -13,7 +13,7 @@ This analysis was conducted to support hospital performance monitoring and payer
 
 Using encounter-level electronic health record (EHR) data, the project evaluates how patient flow, clinical outcomes, and financial risk vary across encounter classes, diagnoses, and payer types. The goal is not just retrospective reporting, but to provide leadership with actionable insights to inform resource allocation, quality improvement initiatives, and payer strategy. While based on synthetic data, the analysis is intentionally structured to mirror real-world hospital performance analytics and decision-making workflows.
 
-- Tableau Story (Interactive Dashboards): [link to be added]
+- Tableau Story Presentation (Interactive Dashboards): [link to be added]
 - SQL Queries Used for Analysis: [Available here](https://github.com/uduak33/hospital-performance-and-payer-insights/blob/main/sql_scripts) 
 - Synthetic EHR Dataset (Synthea): [Download here](https://drive.google.com/file/d/1MbpiKEOvP2GoirC1C_gbqNuwcTseC3Cg/view?usp=drive_link)
 - Entity Relationship Diagram (ERD): [View here](https://drive.google.com/file/d/1uaJcTt5IJoImHiWCTbFmnAwpUeNv5Lja/view?usp=drive_link)
