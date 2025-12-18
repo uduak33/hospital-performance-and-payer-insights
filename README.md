@@ -39,8 +39,6 @@ Out of the full Synthea schema, five tables were used:
 - payers – insurance coverage and payer attributes
 - inpatient_department_mapping – custom table created to support inpatient clinical analysis
 
-A full Entity Relationship Diagram (ERD) is provided here:
-ERD: [link to ERD diagram]
 
 ### Custom Clinical Modelling Decisions
 
