@@ -24,8 +24,8 @@ The analysis is based on encounter-level electronic health record (EHR) data gen
 
 ### Data Generation Context
 
-Data generation date: 25/10/2025
-Project analysis period: 01/11/2025 – 17/12/2025
+Data generation date: 25/10/2025  
+Project analysis period: 01/11/2025 – 17/12/2025  
 Encounter history covered: 2000–2025 (with certain financial fields extending the entire dataset)
 
 The Synthea generator produced a relational dataset comprising 18 core tables. For this analysis, only tables directly relevant to hospital operations, clinical performance, and payer exposure were retained.
