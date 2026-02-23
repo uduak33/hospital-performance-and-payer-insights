@@ -112,7 +112,7 @@ Overall, payer mix—rather than total encounter volume alone—is a key driver 
 ### Time Trends & Service Utilisation
 - Patient encounter volumes rose sharply after 2015, marking a structural shift in service utilisation rather than gradual organic growth.
 - Ambulatory care consistently dominated total volume, reinforcing its role as the primary driver of system-wide patient throughput.
-- Outpatient services peaked markedly in 2021, reflecting pandemic-era care deferral followed by release demand and service reconfiguration.
+- Outpatient services peaked in 2021, reflecting pandemic-era care deferral, subsequent pent-up demand, and structural service reconfiguration.
 - Emergency, inpatient, and post-acute services increased modestly, suggesting stable acuity demand relative to rapid outpatient expansion.
 - Virtual and wellness encounters surged post-2019, indicating durable adoption of preventive and remote care models beyond the pandemic period.
 
